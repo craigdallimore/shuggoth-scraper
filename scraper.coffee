@@ -26,6 +26,7 @@ casper.start login, ->
       log: username
       pwd: password,
         true
+    @loadInProgress = true
 
 casper.thenOpen contents, ->
 
